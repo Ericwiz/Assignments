@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:  black;
+    font-family:  'Lexend Deca', sans-serif;
+}
+
+.grid {
+  text-align: left;
+}
+
+.grid a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+}
+
+.container {
+    width: 65%;
+    margin: 4rem auto;
+    background-color: hsl(0, 0%, 95%);
+    padding: 5rem 8rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.orange {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.cyan1 {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.cyan2 {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.mini-container { 
+    padding: 1.5rem;
+    padding-bottom: 2.5rem;
+
+}
+
+.mini-container h2 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 1.4rem;
+    padding: 1rem 0 1rem 0;
+    color: hsl(0, 0%, 95%);
+}
+
+.mini-container p {
+    font-family:  'Lexend Deca', sans-serif;
+    font-size:  10px;
+    line-height: 19px;
+    padding-bottom: 3.5rem;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.orange a {
+    text-decoration: none;
+    background-color:  hsl(0, 0%, 95%);
+    color:  hsl(31, 77%, 52%);
+    border-radius: 20px;
+    font-family:  'Lexend Deca', sans-serif;
+    font-size:  11px;
+    padding: .5rem 1rem;
+ }
+
+ .cyan2 a {
+    text-decoration: none;
+    background-color:  hsl(0, 0%, 95%);
+    color:   hsl(179, 100%, 13%);;
+    border-radius: 20px;
+    font-family:  'Lexend Deca', sans-serif;
+    font-size:  11px;
+    padding: .5rem 1rem;
+ }
+
+ .cyan1 a {
+    text-decoration: none;
+    background-color:  hsl(0, 0%, 95%);
+    color:   hsl(184, 100%, 22%);
+    border-radius: 20px;
+    font-family:  'Lexend Deca', sans-serif;
+    font-size:  11px;
+    padding: .5rem 1rem;
+ }
+
+ .orange a:hover, .cyan1 a:hover, .cyan2 a:hover {
+    text-decoration: none;
+    background-color:  transparent;
+    border: 2px solid white;
+    color:   white;
+    border-radius: 20px;
+    font-family:  'Lexend Deca', sans-serif;
+    font-size:  11px;
+    padding: .5rem 1rem;
+ }
